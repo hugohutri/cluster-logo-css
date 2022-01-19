@@ -1,0 +1,182 @@
+h1 {
+  color: red;
+}
+
+.logo {
+  height: 50vw;
+  width: 50vw;
+  background-color: #444;
+  position: relative;
+}
+
+.cogwheel {
+  height: 90%;
+  width: 90%;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.cogwheel-inner {
+  height: 80%;
+  width: 80%;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.logo-center {
+  height: 37%;
+  width: 37%;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.ring-4 .segment-red {
+  width: 97%;
+  height: 97%;
+}
+.ring-4 .segment-black {
+  width: 97%;
+  height: 97%;
+}
+
+.ring-3 .segment-red {
+  width: 70%;
+  height: 70%;
+}
+.ring-3 .segment-black {
+  width: 70%;
+  height: 70%;
+}
+.ring-3 .circle {
+  height: 69.9%;
+  width: 69.9%;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.ring-2 .segment-red {
+  width: 67%;
+  height: 67%;
+}
+.ring-2 .segment-black {
+  width: 67%;
+  height: 67%;
+}
+.ring-2 .circle {
+  height: 66.9%;
+  width: 66.9%;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.ring-1 .segment-red {
+  width: 40%;
+  height: 40%;
+}
+.ring-1 .segment-black {
+  width: 40%;
+  height: 40%;
+}
+.ring-1 .circle {
+  height: 39.9%;
+  width: 39.9%;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.segment-red {
+  border-radius: 50%;
+  background: linear-gradient(14.3deg, #d40029 20.55%, transparent 20.55%) 0 0;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+}
+
+.segment-black {
+  border-radius: 50%;
+  background: linear-gradient(14.3deg, black 20.55%, transparent 20.55%) 0 0;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+}
+
+.pos-0 {
+  transform: translate(-50%, -50%) rotate(calc(0 * 14.4deg + 90deg));
+}
+.pos-1 {
+  transform: translate(-50%, -50%) rotate(calc(1 * 14.4deg + 90deg));
+}
+.pos-2 {
+  transform: translate(-50%, -50%) rotate(calc(2 * 14.4deg + 90deg));
+}
+.pos-3 {
+  transform: translate(-50%, -50%) rotate(calc(3 * 14.4deg + 90deg));
+}
+.pos-4 {
+  transform: translate(-50%, -50%) rotate(calc(4 * 14.4deg + 90deg));
+}
+.pos-5 {
+  transform: translate(-50%, -50%) rotate(calc(5 * 14.4deg + 90deg));
+}
+.pos-6 {
+  transform: translate(-50%, -50%) rotate(calc(6 * 14.4deg + 90deg));
+}
+.pos-7 {
+  transform: translate(-50%, -50%) rotate(calc(7 * 14.4deg + 90deg));
+}
+.pos-8 {
+  transform: translate(-50%, -50%) rotate(calc(8 * 14.4deg + 90deg));
+}
+.pos-9 {
+  transform: translate(-50%, -50%) rotate(calc(9 * 14.4deg + 90deg));
+}
+.pos-10 {
+  transform: translate(-50%, -50%) rotate(calc(10 * 14.4deg + 90deg));
+}
+.pos-11 {
+  transform: translate(-50%, -50%) rotate(calc(11 * 14.4deg + 90deg));
+}
+.pos-12 {
+  transform: translate(-50%, -50%) rotate(calc(12 * 14.4deg + 90deg));
+}
+.pos-13 {
+  transform: translate(-50%, -50%) rotate(calc(13 * 14.4deg + 90deg));
+}
+.pos-14 {
+  transform: translate(-50%, -50%) rotate(calc(14 * 14.4deg + 90deg));
+}
+.pos-15 {
+  transform: translate(-50%, -50%) rotate(calc(15 * 14.4deg + 90deg));
+}
+.pos-16 {
+  transform: translate(-50%, -50%) rotate(calc(16 * 14.4deg + 90deg));
+}
+.pos-17 {
+  transform: translate(-50%, -50%) rotate(calc(17 * 14.4deg + 90deg));
+}
+.pos-18 {
+  transform: translate(-50%, -50%) rotate(calc(18 * 14.4deg + 90deg));
+}
+.pos-19 {
+  transform: translate(-50%, -50%) rotate(calc(19 * 14.4deg + 90deg));
+}
+.pos-20 {
+  transform: translate(-50%, -50%) rotate(calc(20 * 14.4deg + 90deg));
+}
+.pos-21 {
+  transform: translate(-50%, -50%) rotate(calc(21 * 14.4deg + 90deg));
+}
+.pos-22 {
+  transform: translate(-50%, -50%) rotate(calc(22 * 14.4deg + 90deg));
+}
+.pos-23 {
+  transform: translate(-50%, -50%) rotate(calc(23 * 14.4deg + 90deg));
+}
+.pos-24 {
+  transform: translate(-50%, -50%) rotate(calc(24 * 14.4deg + 90deg));
+}
