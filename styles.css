@@ -24,19 +24,19 @@ h1 {
 }
 
 .logo-center {
-  height: 37%;
-  width: 37%;
+  height: 36%;
+  width: 36%;
   background-color: black;
   border-radius: 50%;
 }
 
 .ring-4 .segment-red {
-  width: 97%;
-  height: 97%;
+  width: 96%;
+  height: 96%;
 }
 .ring-4 .segment-black {
-  width: 97%;
-  height: 97%;
+  width: 96%;
+  height: 96%;
 }
 
 .ring-3 .segment-red {
@@ -48,23 +48,23 @@ h1 {
   height: 70%;
 }
 .ring-3 .circle {
-  height: 69.9%;
-  width: 69.9%;
+  height: 69.7%;
+  width: 69.7%;
   background-color: white;
   border-radius: 50%;
 }
 
 .ring-2 .segment-red {
-  width: 67%;
-  height: 67%;
+  width: 66%;
+  height: 66%;
 }
 .ring-2 .segment-black {
-  width: 67%;
-  height: 67%;
+  width: 66%;
+  height: 66%;
 }
 .ring-2 .circle {
-  height: 66.9%;
-  width: 66.9%;
+  height: 65.7%;
+  width: 65.7%;
   background-color: white;
   border-radius: 50%;
 }
@@ -78,8 +78,8 @@ h1 {
   height: 40%;
 }
 .ring-1 .circle {
-  height: 39.9%;
-  width: 39.9%;
+  height: 39.8%;
+  width: 39.8%;
   background-color: white;
   border-radius: 50%;
 }
@@ -93,14 +93,14 @@ h1 {
 
 .segment-red {
   border-radius: 50%;
-  background: linear-gradient(14.3deg, #d40029 20.55%, transparent 20.55%) 0 0;
+  background: linear-gradient(14.3deg, #d40029 20.6%, transparent 20.6%) 0 0;
   background-repeat: no-repeat;
   background-size: 50% 50%;
 }
 
 .segment-black {
   border-radius: 50%;
-  background: linear-gradient(14.3deg, black 20.55%, transparent 20.55%) 0 0;
+  background: linear-gradient(14.3deg, black 20.6%, transparent 20.6%) 0 0;
   background-repeat: no-repeat;
   background-size: 50% 50%;
 }
