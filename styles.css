@@ -164,6 +164,17 @@ Bottom is 2cm when logo is 15cm
   background-repeat: no-repeat;
   background-size: 50% 50%;
 }
+@font-face {
+  font-family: "digital";
+  src: url("WormboxSharp-263v.ttf");
+}
+
+.year {
+  font-size: 3.8rem;
+  margin: auto;
+  color: #d40029;
+  font-family: "digital";
+}
 
 .pos-0 {
   transform: translate(-50%, -50%) rotate(calc(0 * 14.4deg + 90deg));
