@@ -1,5 +1,4 @@
 .container {
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
   position: relative;
   width: 100%;
   max-width: 960px;
@@ -11,7 +10,6 @@
   align-items: center;
   text-align: center;
   align-self: stretch;
-  min-height: 100vh;
 }
 
 @media (min-width: 400px) {
@@ -37,8 +35,13 @@ h1 {
 .logo {
   height: 50vw;
   width: 50vw;
-  /* background-color: #444; */
   position: relative;
+}
+.year {
+  font-size: 5vw;
+  margin: auto;
+  color: #d40029;
+  font-family: "digital";
 }
 
 .cogwheel {
@@ -65,6 +68,12 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@keyframes rotate-cog {
+  50% {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
 }
 
 .cog-0 {
@@ -184,6 +193,18 @@ h1 {
   background: linear-gradient(14.3deg, #d40029 20.6%, transparent 20.6%) 0 0;
   background-repeat: no-repeat;
   background-size: 50% 50%;
+  animation: rotate-360 6s ease-in-out;
+}
+
+@keyframes rotate-360 {
+  0% {
+    transform: translate(-50%, -50%) rotate(-360deg) scale(0.8);
+  }
+}
+@keyframes rotate-720 {
+  0% {
+    transform: translate(-50%, -50%) rotate(720deg) scale(0.8);
+  }
 }
 
 .segment-black {
@@ -191,17 +212,11 @@ h1 {
   background: linear-gradient(14.3deg, black 20.6%, transparent 20.6%) 0 0;
   background-repeat: no-repeat;
   background-size: 50% 50%;
+  animation: rotate-720 6s ease-in-out;
 }
 @font-face {
   font-family: "digital";
   src: url("./WormboxSharp-263v.ttf");
-}
-
-.year {
-  font-size: 5vw;
-  margin: auto;
-  color: #d40029;
-  font-family: "digital";
 }
 
 .pos-0 {
