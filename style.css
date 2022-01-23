@@ -33,12 +33,12 @@ h1 {
 }
 
 .logo {
-  height: 50vw;
-  width: 50vw;
+  height: max(min(50vw, 600px), 300px);
+  width: max(min(50vw, 600px), 300px);
   position: relative;
 }
 .year {
-  font-size: 5vw;
+  font-size: max(min(5vw, 60px), 30px);
   margin: auto;
   color: #d40029;
   font-family: "digital";
